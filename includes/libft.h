@@ -6,7 +6,7 @@
 /*   By: mdouglas <mdouglas@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/27 20:11:15 by mdouglas          #+#    #+#             */
-/*   Updated: 2022/12/28 11:30:03 by mdouglas         ###   ########.fr       */
+/*   Updated: 2022/12/28 13:12:22 by mdouglas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,5 +75,15 @@ void    ft_lstiter(t_list *list, void (*f)(void *));
 t_list  *ft_lstlast(t_list *list);
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 t_list  *ft_lstnew(void *content);
+
+/* string */
+
+char    **ft_split(char const *string, char c);
+char    *ft_strchr(const char *string, int c);
+char    *ft_strdup(const char *string);
+void    ft_striteri(char *string, void (*f)(unsigned int, char *));
+char    *ft_strjoin(char const *string_one, char const *string_two);
+size_t  ft_strlcat(char *dest, const char *src, size_t size);
+size_t  ft_strlcpy(char *dest, const char *src, size_t size);
 
 #endif
