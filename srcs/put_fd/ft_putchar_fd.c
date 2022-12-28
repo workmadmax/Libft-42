@@ -6,11 +6,11 @@
 /*   By: mdouglas <mdouglas@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 18:54:24 by mdouglas          #+#    #+#             */
-/*   Updated: 2022/12/28 18:55:40 by mdouglas         ###   ########.fr       */
+/*   Updated: 2022/12/28 20:28:37 by mdouglas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 
 /**
  * @brief Outputs the character 'c' to

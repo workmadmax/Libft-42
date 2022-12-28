@@ -6,7 +6,7 @@
 /*   By: mdouglas <mdouglas@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/27 20:11:15 by mdouglas          #+#    #+#             */
-/*   Updated: 2022/12/28 19:20:22 by mdouglas         ###   ########.fr       */
+/*   Updated: 2022/12/28 19:47:06 by mdouglas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,6 +49,7 @@ char    *get_next_line(int fd);
 char    *get_reading(int fd, char *string);
 char    *get_string(char *string);
 char    *gnl_strjoin(char *string_one, char *string_two);
+char    *gnl_dup(char *string);
 
 /* printf */
 
@@ -91,7 +92,7 @@ size_t  ft_strlen(const char *string);
 char    *ft_strmapi(char const *string, char (*f)(unsigned int, char));
 int     ft_strncmp(const char *string_one, const char *string_two, size_t n);
 char    *ft_strnstr(const char *big, const char *little, size_t len);
-char    *ft_strrchr(const *string, int c);
+char    *ft_strrchr(const char *string, int c);
 char    *ft_strtrim(char const *string_one, char const *set);
 char    *ft_substr(char const *src, unsigned int start, size_t len);
 

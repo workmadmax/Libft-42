@@ -6,11 +6,11 @@
 /*   By: mdouglas <mdouglas@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 15:27:38 by mdouglas          #+#    #+#             */
-/*   Updated: 2022/12/28 15:30:34 by mdouglas         ###   ########.fr       */
+/*   Updated: 2022/12/28 20:28:37 by mdouglas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 /**
  * @brief Copies 'n' characters from 'str2'  to 'str1',
  *  but for overlapping memory blocks,

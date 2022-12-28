@@ -6,11 +6,11 @@
 /*   By: mdouglas <mdouglas@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 12:59:24 by mdouglas          #+#    #+#             */
-/*   Updated: 2022/12/28 13:05:56 by mdouglas         ###   ########.fr       */
+/*   Updated: 2022/12/28 20:28:37 by mdouglas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 /**
  * @brief Concatenates a string to the
  * end of another string, up to a

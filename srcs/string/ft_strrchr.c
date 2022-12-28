@@ -6,11 +6,11 @@
 /*   By: mdouglas <mdouglas@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 14:32:04 by mdouglas          #+#    #+#             */
-/*   Updated: 2022/12/28 14:37:37 by mdouglas         ###   ########.fr       */
+/*   Updated: 2022/12/28 20:28:37 by mdouglas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 /**
  * @brief Searches for the last occurrence of a
  * given character in a string.
@@ -19,7 +19,7 @@
  * @return char* A pointer to the character found,
  * or NULL if the character is not found.
  */
-char    *ft_strrchr(const *string, int c)
+char    *ft_strrchr(const char *string, int c)
 {
     int index;
 

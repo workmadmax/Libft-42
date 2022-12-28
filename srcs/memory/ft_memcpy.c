@@ -6,11 +6,11 @@
 /*   By: mdouglas <mdouglas@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 15:22:10 by mdouglas          #+#    #+#             */
-/*   Updated: 2022/12/28 15:27:05 by mdouglas         ###   ########.fr       */
+/*   Updated: 2022/12/28 20:28:37 by mdouglas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 /**
  * @brief Copies 'n' bytes from the memory
  * area pointed to by 'src' to the memory

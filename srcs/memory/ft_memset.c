@@ -6,11 +6,12 @@
 /*   By: mdouglas <mdouglas@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 15:31:17 by mdouglas          #+#    #+#             */
-/*   Updated: 2022/12/28 15:33:55 by mdouglas         ###   ########.fr       */
+/*   Updated: 2022/12/28 20:28:37 by mdouglas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
+
 /**
  * @brief Fills the first 'n' bytes of the memory
  * area pointed to by 'string' with the value 'c'

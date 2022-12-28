@@ -6,11 +6,11 @@
 /*   By: mdouglas <mdouglas@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 12:40:41 by mdouglas          #+#    #+#             */
-/*   Updated: 2022/12/28 12:43:10 by mdouglas         ###   ########.fr       */
+/*   Updated: 2022/12/28 20:28:37 by mdouglas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 
 /**
  * @brief Searches for the first occurrence
@@ -26,17 +26,17 @@
 char    *ft_strchr(const char *string, int c)
 {
     int     index;
-    char    *string;
+    char    *str;
 
     index = 0;
-    string = (char *)string;
-    while (string[index])
+    str = (char *)string;
+    while (str[index])
     {
-        if (string[index] == c)
-            return (&string[index]);
+        if (str[index] == c)
+            return (&str[index]);
         index++;
     }
     if (c == '\0')
-        return (&string);
+        return (&str[index]);
     return (0);
 }

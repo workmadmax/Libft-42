@@ -6,11 +6,11 @@
 /*   By: mdouglas <mdouglas@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 13:15:09 by mdouglas          #+#    #+#             */
-/*   Updated: 2022/12/28 13:18:12 by mdouglas         ###   ########.fr       */
+/*   Updated: 2022/12/28 20:28:36 by mdouglas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 /**
  * @brief Applies the function 'f'
  * to each character of the string 's',
@@ -29,10 +29,10 @@ char    *ft_strmapi(char const *string, char (*f)(unsigned int, char))
     unsigned int    index;
     char            *str;
 
-    if (!str)
+    if (!string)
         return (NULL);
     str = (char *)malloc((ft_strlen(string) + 1) * sizeof(char));
-    if (string == NULL)
+    if (str == NULL)
         return (NULL);
     index = 0;
     while (string[index])

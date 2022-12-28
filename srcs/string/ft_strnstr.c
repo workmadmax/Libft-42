@@ -6,11 +6,11 @@
 /*   By: mdouglas <mdouglas@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 14:24:20 by mdouglas          #+#    #+#             */
-/*   Updated: 2022/12/28 14:31:13 by mdouglas         ###   ########.fr       */
+/*   Updated: 2022/12/28 20:28:36 by mdouglas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 /**
  * @brief Searches for a string within another
  * string, up to a maximum length.

@@ -6,11 +6,11 @@
 /*   By: mdouglas <mdouglas@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 14:15:13 by mdouglas          #+#    #+#             */
-/*   Updated: 2022/12/28 14:23:11 by mdouglas         ###   ########.fr       */
+/*   Updated: 2022/12/28 20:28:37 by mdouglas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 /**
  * @brief Compares two strings character by
  * character, up to a maximum number of
@@ -33,8 +33,8 @@ int ft_strncmp(const char *string_one, const char *string_two, size_t n)
     unsigned char   *str2;
 
     index = 0;
-    str1 = (unsigned char *)str1;
-    str2 = (unsigned char *)str2;
+    str1 = (unsigned char *)string_one;
+    str2 = (unsigned char *)string_two;
     while ((str1[index] || str2[index]) && index < n)
     {
         if (str1[index] != str2[index])
