@@ -6,7 +6,7 @@
 /*   By: mdouglas <mdouglas@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/27 20:11:15 by mdouglas          #+#    #+#             */
-/*   Updated: 2022/12/28 15:34:07 by mdouglas         ###   ########.fr       */
+/*   Updated: 2022/12/28 19:20:22 by mdouglas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,6 +61,8 @@ size_t  handle_str(const char *string);
 
 /* parse */
 
+int     ft_toupper(int c);
+int     ft_tolower(int c);
 int     ft_atoi(const char *string);
 char    *ft_itoa(int nbr);
 
@@ -102,5 +104,20 @@ int     ft_memcmp(const void *string_one, const void *string_two, size_t n);
 void    *ft_memcpy(void *dest, const void *src, size_t n);
 void    *ft_memmove(void *string_one, const void *string_two, size_t n);
 void    *ft_memset(void *string, int c, size_t n);
+
+/* put fd */
+
+void    ft_putchar_fd(char c, int fd);
+void    ft_putendl_fd(char *string, int fd);
+void    ft_putnbr_fd(int nbr, int fd);
+void    ft_putstr_fd(char *string, int fd);
+
+/* checker */
+
+int ft_isalnum(int c);
+int ft_isalpha(int c);
+int ft_isascii(int c);
+int ft_isdigit(int c);
+int ft_isprint(int c);
 
 #endif
