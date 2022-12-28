@@ -6,7 +6,7 @@
 /*   By: mdouglas <mdouglas@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/27 20:11:15 by mdouglas          #+#    #+#             */
-/*   Updated: 2022/12/27 22:06:38 by mdouglas         ###   ########.fr       */
+/*   Updated: 2022/12/28 11:30:03 by mdouglas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,6 +66,14 @@ char    *ft_itoa(int nbr);
 
 /* list */
 
+int     ft_lstsize(t_list *list);
 void    ft_lstadd_back(t_list **list, t_list *new_node);
+void    ft_lstadd_front(t_list **list, t_list *new_node);
+void    ft_lstclear(t_list **list, void (*del)(void *));
+void    ft_lstdelone(t_list *list, void (*del)(void *));
+void    ft_lstiter(t_list *list, void (*f)(void *));
+t_list  *ft_lstlast(t_list *list);
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+t_list  *ft_lstnew(void *content);
 
 #endif
